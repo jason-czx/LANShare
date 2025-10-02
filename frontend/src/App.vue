@@ -13,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
     <img src="../img/Takeshi.jpeg" class="logo" alt="LANSHARE logo"/>
   </div>
-  <HelloWorld msg="LANSHARE" />
+  <HelloWorld msg="LANSHARE i love" />
 </div>
 </template>
 
