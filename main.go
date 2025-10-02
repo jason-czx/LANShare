@@ -1,6 +1,7 @@
 package main
 
 import (
+	v1 "LANShare/api/v1"
 	"embed"
 	_ "embed"
 	"log"
@@ -32,6 +33,8 @@ func main() {
 		Description: "A demo of using raw HTML & CSS",
 		Services: []application.Service{
 			application.NewService(&GreetService{}),
+			application.NewService(&v1.WebDavService{}),
+			application.NewService(&v1.BluetoothService{}),
 		},
 		Assets: application.AssetOptions{
 			Handler: application.AssetFileServerFS(assets),
