@@ -12,7 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="/vue.svg" class="logo vue" alt="Vue logo"/>
     </a>
   </div>
-  <HelloWorld msg="Wails + Vue" />
+  <HelloWorld msg="LANSHARE" />
 </div>
 </template>
 
