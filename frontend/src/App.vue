@@ -11,6 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <a data-wml-openURL="https://vuejs.org/">
       <img src="/vue.svg" class="logo vue" alt="Vue logo"/>
     </a>
+    <img src="../img/Takeshi.jpeg" class="logo" alt="LANSHARE logo"/>
   </div>
   <HelloWorld msg="LANSHARE" />
 </div>
